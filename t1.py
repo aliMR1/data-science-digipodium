@@ -14,7 +14,7 @@ for i in range(10,30,2):
  write (i, font=('Calibri',30,'bold'))
 
  #reverse
- goto(100,100)
+ goto(100,40)
  for i in range(10,0,-1):
   fd(60)
   lt(360/10)

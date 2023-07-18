@@ -1,14 +1,14 @@
 from turtle import *
 
 speed('fast')
-pencolor('blue')
+pencolor('beige')
 bgcolor('#303030')
-pensize(1)
+pensize(4)
 
 i=200
 while i>0:
     fd(i)
-    lt(90)
+    rt(90)
     i -= 4
 
 mainloop()
