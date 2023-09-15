@@ -4,7 +4,7 @@ from mediapipe.tasks.python import vision
 import cv2
 import numpy as np
 import time
-model_path='blaze_face_short_range.tflite'
+model_path='computer vision/qblaze_face_short_range.tflite'
 
 BaseOptions = mp.tasks.BaseOptions
 FaceDetector = mp.tasks.vision.FaceDetector
